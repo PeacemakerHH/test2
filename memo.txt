@@ -1,0 +1,25 @@
+✔ git 의 버전 확인
+ git --version # git version 2.52.0.windows.1
+
+✔ 폴더안에서 git을 만들어야, git이 해당폴더를 버전관리함
+## 원하는 폴더의 경로확인( C:\HH\git)
+
+✔ 프로젝트 디렉토리에 로컬 저장소 생성(버전관리하겠다는 의미)
+ git init  
+# Initialized empty Git repository in C:/HH/git/.git/
+# 어떤걸 업데이트하고 하는지 감시하는 파일이 해당경로에 생겼다는 의미 
+
+✔ git의 버전 관리할 파일을 선택(stage에 올림)
+ git add test.py # 누구를 관리할지 선택하는것
+
+✔ 버전 만들기 (커밋)
+git commit -m "test.py를 커밋" 
+# 메시지는 아무내용이나 적어도되지만, 메시지를 보고 이 버전이 이렇게 만들어졌구나 
+인식할정도로 제목 기재하면됨 
+# git config --global user.email "lvgusk@gmail.com"
+# git config --global user.name "peacemaker"
+# git config user.name
+# 작업하고있는  branch  이름= master name
+
+✔ 로그확인: 버전을 얼마나 만들었는지 확인가능 
+ git log 
