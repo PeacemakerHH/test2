@@ -45,4 +45,11 @@ git commit -m "test.py를 커밋"
   # git 명령어가 아닌 github 기능임 
   #  다른사람의 github계정 저장소에서 fork를 눌러서 내 계정 저장소로 복사
 
+ ✔ 내용 수정하여 추가하는 방법 
+    git add
+    git commit -m '~~'
+    git pust -u origin master
  
+✔ 원격 저장소에서 변경된 사항을 가져오기
+  git fetch origin (변경된 사항을 가져오되, 가져오기만함)
+  git pull origin (변경된 사항을 가져와서 merge까지 시행) 

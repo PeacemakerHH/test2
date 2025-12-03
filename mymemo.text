@@ -1,0 +1,25 @@
+# 저장한 버전을 실제 클라우드에 저장하기위해서 
+클라우드 서비스에다가 깃허브를 만들어야함 -> repositories
+
+: new > repository name > Descipition > pubic or pivate 설정 
+
+cf>
+AddReadme: 나중에 추후 만들어도됨 
+Add.gitignore: 깃허브에 올리지않아도될 파일, 추후 만들수있음
+Add license: 상용적으로 쓰면안돼! 가져가면 돈내야해 등으로 등록가능 
+
+
+# 깃허브의 settings
+# collaborators (누구와 같이 해당 레파짓토리를 작업할지 세팅가능함)
+> Add people >깃허브에서 사용하는 이름, 메일 기재> 상대방이 메일을 허락해야 가능 
+
+
+# 다른사람들과함께작업하고싶을때
+: 해당파일> 세팅>콜라보> invite> 
+: 내가 함게 참여하고싶다면, 다른사람 레파짓스토리에 가서,이사람과 같은 환경으로 만들어 작업하고싶다면!
+code> 주소 복사하여 로컬에서 실행 
+
+# git add해서 commit에서 push까지 
+git add .
+git commit -m " "
+git push -u origin master
