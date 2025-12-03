@@ -23,3 +23,26 @@ git commit -m "test.py를 커밋"
 
 ✔ 로그확인: 버전을 얼마나 만들었는지 확인가능 
  git log 
+
+ ✔ Github (git의 버전관리한것을 저장해주는 클라우드서비스)
+
+ ✔ 로컬 저장소에서 github 원격 저장소 주소를 등록 
+ # 어디다가 저장할건지를 세팅해놓기 
+ # 나의 깃허브 레파짓스토리 주소: https://github.com/PeacemakerHH/test2.git
+ git remote add origin https://github.com/PeacemakerHH/test2.git
+  # git으로 원격지에 연결할건데, 그 주소를 하나 추가할거야 
+  # 주소의 이름은 origin이야 
+  # origin의 이름은 관례적으로 많이 사용
+  # 그 주소는 이와같아~ 
+
+  ✔ 생성한 커밋들을 github에 전송( 푸쉬 )
+    git push -u origin master
+    #내가 만든 커밋들을 내보낼건데 
+    # 변화된것들을 origin을 통해서 보낼건데, 내가 작업하고있는 branch(깃에서 기본 계정:master or  main이라함)
+
+ ✔ FORK
+  # 하나의 레파짓토리 저장소를 다른 계정으로 복사 
+  # git 명령어가 아닌 github 기능임 
+  #  다른사람의 github계정 저장소에서 fork를 눌러서 내 계정 저장소로 복사
+
+ 
