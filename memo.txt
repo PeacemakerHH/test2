@@ -46,8 +46,8 @@ git commit -m "test.py를 커밋"
   #  다른사람의 github계정 저장소에서 fork를 눌러서 내 계정 저장소로 복사
 
  ✔ 내용 수정하여 추가하는 방법 
-    git add
-    git commit -m '~~'
+    git add.
+    git commit -m "~~"
     git pust -u origin master
  
 ✔ 원격 저장소에서 변경된 사항을 가져오기
@@ -55,14 +55,32 @@ git commit -m "test.py를 커밋"
   git pull origin (변경된 사항을 가져와서 merge까지 시행) 
 
 ✔.gitignore
-git이 추적하지 않아야할 파일을 지정하는 파일 
-(변경,생성,지워지던 등 참고하지않음을 의미함)
+ git이 추적하지 않아야할 파일을 지정하는 파일 
+ (변경,생성,지워지던 등 참고하지않음을 의미함)
 
 # 해당파일을 ignore하고싶다면
 : 파일이름. 확장명 
 
-#해당 확장명을 ignore하고싶다면
+# 해당 확장명을 ignore하고싶다면
 : *.확장명
 
 # 폴더채로 ignore하고 싶다면
 : 폴더명/
+
+✔ branch 
+# 작엽에 대한 가지 
+# 큰 줄기에 영향을 주지않고 가지에서만 작업을 할수 있음. 
+# 각 가지는 자체 commit 및  변경을 가질수 있음 
+> master에 영향을 미치지 않고 여러 기능이나 버그 수정을 동시에 수행할수 있음 
+
+✔ 현재 상태 확인 
+git status
+
+✔ 새로운 branch를 만들기 
+git branch
+if) apple이라는 branch를 생성하고 이동
+git checkout -b apple
+> master가 apple라는 새로운  branch를 생성함
+> apple에서 수정하여도 master에 반영되지않음 
+
+
